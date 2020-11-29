@@ -3,11 +3,12 @@
 
 #include <iostream>
 #include <string>
+#include <sstream>
 
-class BaseFactory
+class BaseFactory:public Base
 {
     private:
-
+    Base *root = nullptr;
 
     public:
     
