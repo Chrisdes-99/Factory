@@ -9,7 +9,7 @@ ADD_EXECUTABLE(test
     unit_test.cpp
 )
 
-ADD_EXECUTABLE(main
+ADD_EXECUTABLE(calculator
     main.cpp
     BaseFactory.cpp
 )
