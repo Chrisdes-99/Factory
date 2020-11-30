@@ -4,8 +4,11 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include "Base.hpp"
 
-class BaseFactory:public Base
+class Base;
+
+class BaseFactory
 {
     private:
     Base *root = nullptr;
