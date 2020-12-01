@@ -5,6 +5,7 @@
 #include <string>
 #include <sstream>
 #include "Base.hpp"
+#include "lab04include.hpp"
 
 class Base;
 
@@ -14,7 +15,8 @@ class BaseFactory
     Base *root = nullptr;
 
     public:
-    
+    BaseFactory() { };
+
     Base* parse(char** input,int length);
 
 };
